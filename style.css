@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #686868;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  margin-right: 10px;
+}
+
+/* Main Styles */
+main {
+  margin: 50px auto;
+  width: 80%;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.register-button {
+  display: inline-block;
+  margin-left: 400px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1F2D3D;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  background-color: #52616B;
+}
+
+
+input[type="submit"] {
+  background-color: #212121;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#login-message {
+  color: red;
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #212121;
+  text-decoration: none;
+  font-size: 14px;
+}

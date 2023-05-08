@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Aliff's Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Aliff's Website</h1>
+      <nav>
+        <ul>
+          <li><a href="socialmedia1.html"><img src="socialmedia.png" height="150" alt="Social Media">Social Media</a></li>
+          <li><a href="biography.html"><img src="biography.png" height="200" alt="Biography">Biography</a></li>
+          <li><a href="resume.html"><img src="resume.png" height="160" alt="Resume">Resume</a></li>
+          <li><a href="timetable.html"><img src="timetable.png" height="150" alt="Timetable">Timetable</a></li>
+          <li><a href="gallery.html"><img src="gallery.png" height="150" alt="Gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+  <h2>User Login</h2>
+  <form>
+    <table>
+      <tr>
+        <td><label for="username">Username:</label></td>
+        <td><input type="text" id="username" name="username"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Login">
+          <a href="register.html" class="register-button">Register</a>
+        </td>
+      </tr>
+    </table>
+    <p id="login-message" style="display: none;">Incorrect username or password</p>
+  </form>
+</main>
+
+    <footer>
+      <center><p>UiTM Websites :</p>
+      <ul>
+        <li><a href="https://www.uitm.edu.my">www.uitm.edu.my</a></li>
+        <li><a href="https://www.istudent.uitm.edu.my">www.istudent.uitm.edu.my</a></li>
+        <li><a href="https://www.fskm.uitm.edu.my">www.fskm.uitm.edu.my</a></li>
+      </ul>
+    </footer>
+    <script>
+      document.querySelector('form').addEventListener('submit', function(event) {
+        var username = document.querySelector('#username').value;
+        var password = document.querySelector('#password').value;
+        
+
+        if (username !== 'correct_username' || password !== 'correct_password') {
+          event.preventDefault(); 
+          document.querySelector('#login-message').style.display = 'block'; 
+        }
+      });
+    </script>
+  </body>
+</html>

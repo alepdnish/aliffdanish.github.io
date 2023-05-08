@@ -1,0 +1,25 @@
+body {
+  background-color: #F7F7F7;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #1F2D3D;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #52616B;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #738491;
+  font-size: 18px;
+  margin-top: 10px;
+}
